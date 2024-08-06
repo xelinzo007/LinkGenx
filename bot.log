@@ -6,3 +6,130 @@
 2024-08-05 21:31:41,935 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
 2024-08-05 21:31:41,936 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
 2024-08-05 21:31:41,975 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-08-06 01:11:51,195 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:11:51,402 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:12:51,631 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:12:51,830 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:12:52,962 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:12:53,161 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:13:19,879 - __main__ - ERROR - Error while processing message 291: name 'asyncio' is not defined
+2024-08-06 01:14:11,256 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2024-08-06 01:14:11,257 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:14:11,305 - asyncio - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-22' coro=<message_processor() done, defined at D:\Xelinzo\LinkGenx\app_1.py:117> exception=ValueError('task_done() called too many times')>
+Traceback (most recent call last):
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 138, in main
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\site-packages\telethon\client\updates.py", line 36, in _run_until_disconnected
+    result = await self.disconnected
+             ^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 120, in message_processor
+    while True:
+                
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 127, in message_processor
+    logger.error(f"Error while processing message from queue: {e}")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 201, in task_done
+    raise ValueError('task_done() called too many times')
+ValueError: task_done() called too many times
+2024-08-06 01:14:17,519 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:14:17,741 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:14:18,975 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:14:19,171 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:16:19,337 - __main__ - ERROR - Error while getting response from ExtraPeBot: Cannot open exclusive conversation in a chat that already has one open conversation
+2024-08-06 01:16:19,339 - __main__ - ERROR - Error while getting response from ExtraPeBot: Cannot open exclusive conversation in a chat that already has one open conversation
+2024-08-06 01:16:19,342 - __main__ - ERROR - Error while getting response from ExtraPeBot: Cannot open exclusive conversation in a chat that already has one open conversation
+2024-08-06 01:16:19,344 - __main__ - ERROR - Error while getting response from ExtraPeBot: Cannot open exclusive conversation in a chat that already has one open conversation
+2024-08-06 01:16:19,347 - __main__ - ERROR - Error while getting response from ExtraPeBot: Cannot open exclusive conversation in a chat that already has one open conversation
+2024-08-06 01:16:45,837 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2024-08-06 01:16:45,838 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:16:45,861 - asyncio - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-20' coro=<message_processor() done, defined at D:\Xelinzo\LinkGenx\app_1.py:119> exception=ValueError('task_done() called too many times')>
+Traceback (most recent call last):
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 140, in main
+    await bot_client.run_until_disconnected()
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\site-packages\telethon\client\updates.py", line 36, in _run_until_disconnected
+    result = await self.disconnected
+             ^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 122, in message_processor
+    event = await message_queue.get()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xelinzo\LinkGenx\app_1.py", line 129, in message_processor
+    message_queue.task_done()
+  File "C:\Users\lp015\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 201, in task_done
+    raise ValueError('task_done() called too many times')
+ValueError: task_done() called too many times
+2024-08-06 01:19:21,835 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:19:22,077 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:19:23,118 - __main__ - INFO - Starting bot clients
+2024-08-06 01:19:23,410 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:19:23,621 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:19:38,481 - __main__ - ERROR - Error while processing message 295: name 'asyncio' is not defined
+2024-08-06 01:20:12,751 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2024-08-06 01:20:12,753 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:20:12,753 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-08-06 01:20:41,623 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:20:41,852 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:20:42,979 - __main__ - INFO - Starting bot clients
+2024-08-06 01:20:43,180 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-08-06 01:20:43,385 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:20:45,764 - __main__ - ERROR - Error while processing message 297: object NoneType can't be used in 'await' expression
+2024-08-06 01:20:50,966 - __main__ - ERROR - Error while processing message 299: Failed to parse message
+2024-08-06 01:23:31,153 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2024-08-06 01:23:31,155 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2024-08-06 01:23:31,155 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
